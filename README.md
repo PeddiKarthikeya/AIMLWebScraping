@@ -15,23 +15,23 @@ Web scraping is the process of automatically extracting data from websites. It i
 *Save the Data: The extracted data is then stored in a structured format, such as a CSV file, a database, or another format.
 
 ->Steps to Achieve Web Scraping
-*Install Necessary Tools/Libraries: To scrape data from websites, you need tools or libraries. For example:
+//Install Necessary Tools/Libraries: To scrape data from websites, you need tools or libraries. For example:
 Python: Libraries like BeautifulSoup, Selenium, and requests are used.
 R: Libraries like rvest help with web scraping.
-*Choose a Website to Scrape: Pick the website from which you want to collect data. Ensure the website’s terms and conditions allow scraping.
-*Inspect the Web Page: Open the webpage and inspect its HTML structure. This helps identify the specific elements (like headings, tables, or paragraphs) you want to scrape. You can use browser tools like Developer Tools to inspect the page's HTML.
-*Send a Request for Data: Write a program that sends an HTTP request to fetch the webpage’s HTML.
-*Parse the HTML: Use a parser to convert the raw HTML into a structured format that’s easy to search and navigate.
-*Extract Data: Using tools like CSS selectors or XPath, extract the desired data. You can target specific tags like <p> for paragraphs, <h1> for headings, or <table> for tables.
-*Store the Data: After extracting the data, save it in a useful format, such as a CSV file or a database, so you can use it later.
+//Choose a Website to Scrape: Pick the website from which you want to collect data. Ensure the website’s terms and conditions allow scraping.
+//Inspect the Web Page: Open the webpage and inspect its HTML structure. This helps identify the specific elements (like headings, tables, or paragraphs) you want to scrape. You can use browser tools like Developer Tools to inspect the page's HTML.
+//Send a Request for Data: Write a program that sends an HTTP request to fetch the webpage’s HTML.
+//Parse the HTML: Use a parser to convert the raw HTML into a structured format that’s easy to search and navigate.
+//Extract Data: Using tools like CSS selectors or XPath, extract the desired data. You can target specific tags like <p> for paragraphs, <h1> for headings, or <table> for tables.
+//Store the Data: After extracting the data, save it in a useful format, such as a CSV file or a database, so you can use it later.
 
 ->Tools and Libraries for Web Scraping
 Python:
-*BeautifulSoup: A library for parsing HTML and extracting data.
-*Requests: Sends HTTP requests to fetch the webpage.
-*Selenium: Used for scraping dynamic pages that need user interaction or JavaScript rendering.
+//BeautifulSoup: A library for parsing HTML and extracting data.
+//Requests: Sends HTTP requests to fetch the webpage.
+//Selenium: Used for scraping dynamic pages that need user interaction or JavaScript rendering.
 R:
-*rvest: An R package for web scraping that is easy to use and allows you to extract HTML elements.
+//rvest: An R package for web scraping that is easy to use and allows you to extract HTML elements.
 Browser Extensions: There are browser tools like Octoparse or Web Scraper which are more user-friendly and don’t require coding.
 
 ->Legal and Ethical Considerations
