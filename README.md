@@ -4,7 +4,7 @@ Web scraping is the process of automatically extracting data from websites. It i
 
 ->Purpose of Web Scraping
 
-*Data Extraction: Web scraping allows you to pull structured data from websites, such as stock prices, product details, reviews, or news articles.  
+ *Data Extraction: Web scraping allows you to pull structured data from websites, such as stock prices, product details,    reviews, or news articles.  
  *Research: Researchers use web scraping to collect large datasets from the web for analysis.
  *Automation: It automates the process of gathering data instead of doing it manually.
  *Competitive Analysis: Businesses use scraping to monitor competitors' websites for pricing, products, or new offers.
