@@ -22,7 +22,7 @@ R: Libraries like rvest help with web scraping.
 //Inspect the Web Page: Open the webpage and inspect its HTML structure. This helps identify the specific elements (like headings, tables, or paragraphs) you want to scrape. You can use browser tools like Developer Tools to inspect the page's HTML.
 //Send a Request for Data: Write a program that sends an HTTP request to fetch the webpage’s HTML.
 //Parse the HTML: Use a parser to convert the raw HTML into a structured format that’s easy to search and navigate.
-//Extract Data: Using tools like CSS selectors or XPath, extract the desired data. You can target specific tags like <p> for paragraphs, <h1> for headings, or <table> for tables.
+//Extract Data: Using tools like CSS selectors or XPath, extract the desired data.
 //Store the Data: After extracting the data, save it in a useful format, such as a CSV file or a database, so you can use it later.
 
 ->Tools and Libraries for Web Scraping
