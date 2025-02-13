@@ -1,0 +1,25 @@
+# Install the 'rvest' package if not already installed
+# install.packages('rvest')
+
+# Import the 'rvest' library
+library(rvest)
+
+# Reading the HTML code from the website
+webpage <- read_html("https://www.geeksforgeeks.org/web-scraping-using-r-language/")
+
+# Using CSS selectors to scrape the heading section
+heading <- html_node(webpage, '.entry-title')
+
+# Converting the heading data to text
+text <- html_text(heading)
+print(text)
+
+# Using CSS selectors to scrape all the paragraph sections
+# Note that we use html_nodes() here
+paragraphs <- html_nodes(webpage, 'p')
+
+# Converting the paragraph data to text
+pText <- html_text(paragraphs)
+
+# Print the top 6 paragraphs
+print(head(pText))
