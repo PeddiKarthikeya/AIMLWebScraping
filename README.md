@@ -37,4 +37,4 @@ Browser Extensions: There are browser tools like Octoparse or Web Scraper which 
 ->Legal and Ethical Considerations
 Permission: Always check the website’s terms of service to make sure scraping is allowed.
 Respect Robots.txt: This file on a website specifies which parts of the website can or can’t be scraped.
-Rate Limiting: Be mindful of the number of requests you send to avoid overwhelming the website’s server.
+Rate Limiting: Be mindful of the number of requests you send to avoid overwhelming the website’s server..
